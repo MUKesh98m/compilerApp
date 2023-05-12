@@ -1,12 +1,9 @@
+import 'package:compiler/components/authentication_button.dart';
+import 'package:compiler/components/custom_text_field.dart';
+import 'package:compiler/screens/signup_screen.dart';
+import 'package:compiler/utils/validation.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:onboarding_app/components/curve.dart';
-import 'package:onboarding_app/components/custom_text_field.dart';
-import 'package:onboarding_app/screens/signup_screen.dart';
-import 'package:onboarding_app/utils/validation.dart';
-import 'package:toasty_snackbar/toasty_snackbar.dart';
 
-import '../components/authentication_button.dart';
 import '../constants.dart';
 
 class LoginScreen extends StatefulWidget {
