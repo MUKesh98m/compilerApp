@@ -38,7 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   page_transition: ^2.0.9
   bottom_navy_bar: ^6.0.0
-  flutter_screenutil: ^5.8.1
+  flutter_screenutil: ^5.6.1
   google_fonts: ^4.0.4
   toasty_snackbar: ^0.0.1
 
