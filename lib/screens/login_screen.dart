@@ -1,6 +1,7 @@
 import 'package:compiler/components/authentication_button.dart';
 import 'package:compiler/components/curve.dart';
 import 'package:compiler/components/custom_text_field.dart';
+import 'package:compiler/screens/home_screen.dart';
 import 'package:compiler/screens/signup_screen.dart';
 import 'package:compiler/utils/validation.dart';
 import 'package:flutter/material.dart';
@@ -167,6 +168,13 @@ class _LoginScreenState extends State<LoginScreen> {
                                         "Login Succesfully",
                                         "User Login Is Succesfully Complited",
                                         AlertType.success);
+
+                                    Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) =>
+                                              HomeScreen(),
+                                        ));
                                   }
                                 },
                               ),
