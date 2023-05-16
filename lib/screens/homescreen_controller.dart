@@ -6,7 +6,7 @@ import 'category_service.dart';
 class HomeScreenController extends ChangeNotifier {
   LanguageListModel? languageListModel;
   categoryList() async {
-    languageListModel = await CategoryService().categoryList();
+    // languageListModel = await CategoryService().categoryList();
     notifyListeners();
     return languageListModel;
   }

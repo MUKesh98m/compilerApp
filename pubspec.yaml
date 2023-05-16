@@ -43,6 +43,9 @@ dependencies:
   toasty_snackbar: ^0.0.1
   provider: ^6.0.5
   dio: ^5.1.2
+  image: ^4.0.17
+  lottie: ^2.3.2
+
 
 
 dev_dependencies:

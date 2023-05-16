@@ -169,12 +169,12 @@ class _LoginScreenState extends State<LoginScreen> {
                                         "User Login Is Succesfully Complited",
                                         AlertType.success);
 
-                                    Navigator.push(
+                                 /*   Navigator.push(
                                         context,
                                         MaterialPageRoute(
                                           builder: (context) =>
                                               HomeScreen(),
-                                        ));
+                                        ));*/
                                   }
                                 },
                               ),
